@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5 rem;
+}
+
+h1 {
+  margin: 60px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 600%;
+  color: #395B64
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #395B64;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: #395B64;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 5px;
+  width: 10%;
+  border-color: #576F72;
+}
+div {
+  margin-left: 0;
+}
+
+.top-container {
+  background-color: #B7E5DD;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-container .mountain-pic {
+  position: relative;
+  top: 3px;
+}
+.middle-container {
+  background-color: #CDF0EA;
+}
+
+.middle-container .intro {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  font-size: 120%;
+}
+.top-cloud {
+  width: 15%;
+  position: absolute;
+  right: 150px;
+  top: 50px;
+  background-color: #B7E5DD;
+}
+
+.bottom-cloud {
+  width: 15%;
+  position: absolute;
+  left: 200px;
+  bottom: 350px;
+  background-color: #B7E5DD;
+}
+
+.middle-container .profile .avatar-pic {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.middle-container .skills .cpp .cpp-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.middle-container .skills .web-dev .web-dev-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #3F4E4F;
+  padding: 50px 0;
+}
+
+.bottom-container .copyright {
+  color: #11999E;
+}
+
+.bottom-container .footer-link {
+  padding: 0 20px;
+}
+
+.bottom-container .copyright {
+  position: relative;
+  top: 15px;
+}
+.profile {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.skills {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 100px;
+  line-height: 2;
+}
+
+.contact-me {
+  padding: 100px 0;
+}
+.skills .cpp {
+  margin-bottom: 120px;
+  text-align: left;
+}
+
+.skills .web-dev {
+  text-align: left;
+}
+
+
+.btn {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container .footer-link {
+  font-size: 120%;
+  color: #5A8F7B;
+}
